@@ -1,0 +1,59 @@
+<div id="cuerpoContent">
+<div id="menu">
+<a id="enlaceOption"
+href=actividades>
+    Actividades
+</a>
+<a id="enlaceOption"
+href=tareas>
+    Tareas
+</a>
+<a id="enlaceOption"
+href=recursos>
+    Recursos
+</a>
+</div>
+<div  id= "noTareas" *ngIf = "  listadoTareas.length == 0  " >
+
+    <!--Aqui poner un elemento que notifique la ausencia de tareas-->
+    No tiene tareas ... aún 
+ 
+</div>
+
+
+
+
+
+<table  *ngIf= " this.listadoTareas.length > 0"  >
+    <tr id="headers">
+        <td>
+            Título
+        </td>
+        <td>
+            Fecha Emisión
+        </td>
+        <td>
+            Fecha Límite
+        </td>
+
+        <td>
+            Entregado
+        </td>
+    </tr>
+   <tr *ngFor="let item of listadoTareas ">
+      <td id="tareas" ><button id="botonTarea" (click) = "devolverTarea(item.Descripcion)">
+        {{item.Descripcion}} 
+      </button > </td> 
+      <td class="fecha"> {{item.FechaEmision }} </td> 
+      <td class="fecha" > {{item.FechaEntrega}} </td> 
+     <!--         <td > {{item.Estado}} </td>       --> 
+      <td *ngIf = "item.Estado == 1"  >
+         <img  class="entregado"  src="../../../assets/Images/done.png">
+      </td>
+      <td *ngIf = "item.Estado == 0 "  >
+        <img class="entregado"   src="../../../assets/Images/not.png" >
+    </td>
+   </tr>
+</table>
+
+

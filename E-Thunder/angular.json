@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "E-Thunder"
+    }
+  },
+  "defaultProject": "E-Thunder",
+  "cli": {
+    "analytics": "d19962a1-27d8-4ac9-86b2-be41aed4d1d5"
+  }
 }

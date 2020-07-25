@@ -1,0 +1,131 @@
+#cuerpoContent{
+    height: 220px;
+    text-align: center;
+}
+
+div>input{
+    width: 120px;
+    height: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+div>input:hover{
+   border: 3.5px solid #E4A728;
+    border-radius: 10px;
+}
+.pregunta{
+    font-size: 22px;
+    margin-top: 4px;
+    text-align: center;
+    font-family: NotoSansJP-Regular;
+    color: #D68E1E;
+}
+.rolBox{
+    display: inline-block;
+}
+#tableForm{
+    display: inline-block;
+}
+td > input{
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    border: 2px solid #FF803F;
+    font-family:  NotoSansJP-Regular;
+    margin-top: 10px;
+    height: 35px;
+}
+label{
+    font-family:  NotoSansJP-Regular;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+/*Boton Ingreso */
+
+
+#botonTarea{
+    
+    padding-top: 10px;
+    width: 100%;
+   background-color: #f58b458c;
+    border: 0px;
+    height: 100%;
+    outline: none;
+    color: white;
+}
+ #tareas{
+     margin-top: 10px;
+     height: 60px;
+     width: 120px;
+    text-align: center;
+   font-style: italic;
+    font-size: 20px;
+ }
+#tareas:hover{
+    background-color:  #E2A586;
+    border: 2px solid lightsalmon;
+}
+#contenedor{
+    text-align: center;
+}
+
+
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+#inpPass, #inpUser{
+    outline: none;
+}
+
+input:focus  {
+    outline-style: none;
+}
+.action-button
+{
+   
+	padding: 5px 40px;
+   /*  float: left;*/
+   border-radius: 5px;
+   border: none;
+	font-size: 16px;
+	color: #FFF;
+    text-decoration: none;	
+    
+    font-family:  NotoSansJP-Regular;
+}
+.yellow
+{
+	background-color: #db9052c7;
+	border-bottom: 5px solid #d18858;
+	text-shadow: 0px -2px #e0993b;
+}
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+label{
+    color: rgb(182, 127, 45);
+   
+}
+a:hover{
+   
+    border: 2px solid #e07d4b;
+}
+a:focus{
+    outline-style: none;
+}
+
+button:focus{
+    outline-style: none;
+}
+button:hover{
+   
+    border: 2px solid #e07d4b;
+}

@@ -1,0 +1,48 @@
+#cuerpoContent{
+    width: 950 px;
+    height: auto;
+    height: 800px;
+    border: 2.5px solid #EC9045;
+    background-color: #F8D7B4;
+    border-radius:  20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+#menu{
+float: left;
+margin-left: 10px;
+margin-top: 10px;
+border: 2.5px solid #EC9045  ;
+width: 98%;
+height: 50px;
+background-color: #F8E9D8;
+border-radius: 10px;
+}
+
+#menu > #enlaceOption{
+    font-size: 16px;
+    display: inline-block;
+    /*border: 1px solid;*/
+    border: none;
+    float: none;
+    text-align: center;
+    color: #AB6A3E;
+    width: 32.8%;
+    height: 20px;
+    font-family: NotoSansJP-Regular;
+    background-color: #F8E9D8;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 5px;
+}
+
+#menu > #enlaceOption:hover{
+    color: #994F1D;
+}
+
+
+

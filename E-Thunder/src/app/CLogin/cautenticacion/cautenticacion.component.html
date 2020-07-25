@@ -1,0 +1,31 @@
+<div id="cuerpoContent">
+ <!--   <p class="pregunta" >Cual es tu rol ?</p>   -->   
+<div id="contForm" >
+ <!--<div class="rolBox"> 
+        <input src="../../../assets/Images/estudiante.png"
+        type="image">
+       <input src="../../../assets/Images/maestro.png" 
+       type="image">
+       <input src="../../../assets/Images/tutor.png" 
+       type="image">
+</div>
+ -->    
+ <div>
+    <table id="tableForm">
+        <tr><td><label for="inpUser"  >Usuario</label></td></tr>
+        <tr><td> <input placeholder="ej: juanperez22"   
+            [(ngModel)]="username" 
+             class="inpUser" type="text"></td></tr>
+        <tr><td><label for="inpPass" >Clave de Acceso</label></td></tr>
+        <tr><td> <input class="inpPass" type="password"  ></td></tr>
+        <br>
+       <button  (click)="login()"
+       class="action-button shadow animate yellow">Ingresar</button>
+    </table> 
+            
+        
+            
+ </div>
+</div>
+
+</div>
